@@ -1,10 +1,18 @@
-import React from 'react';
+import React, { useContext } from 'react';
+import { ThemeProvider } from 'styled-components';
+
+import GlobalStyle from './styles/global';
+import ThemeContext from './context/ThemeContext';
+import Main from './pages/Main';
 
 const App = function App() {
+  const { theme } = useContext(ThemeContext);
+
   return (
-    <div className="App">
-      OI
-    </div>
+    <ThemeProvider theme={theme}>
+      <GlobalStyle />
+      <Main />
+    </ThemeProvider>
   );
 };
 
