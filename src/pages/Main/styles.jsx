@@ -1,9 +1,7 @@
 import styled from 'styled-components';
 
 const Container = styled.main`
-  background-color: ${(props) => props.theme.background};
-  width: 100%;
-  height: 100%;
+  flex: 1,
 `;
 
 export default Container;
