@@ -9,7 +9,7 @@ export const Container = styled.section`
   background-position: center; 
   background-repeat: no-repeat; 
   background-size: cover;
-  padding: 25px 35px;
+  padding: 25px 35px 55px;
 `;
 
 export const Title = styled.h1`
@@ -28,10 +28,9 @@ export const SubTitle = styled.h2`
   padding: 25px 15px;
 `;
 
-export const ButtonContianer = styled.div`
+export const ButtonContainer = styled.div`
   text-align: center;
   padding: 15px 0;
-  
 `;
 
 export const Button = styled.button`

@@ -4,7 +4,7 @@ import Font from '../../styles/fonts';
 
 export const Container = styled.section`
   width: 100%;
-  padding: 25px 35px;
+  padding: 25px 35px 55px;
 `;
 
 export const TitleContainer = styled.div`
@@ -55,6 +55,7 @@ export const ConquestContainer = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: center;
+  gap: 30px;
 `;
 
 export const ConquestItem = styled.div`
@@ -62,7 +63,6 @@ export const ConquestItem = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-bottom: 30px;
 
   div {
     display: flex;

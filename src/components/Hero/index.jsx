@@ -3,7 +3,7 @@ import {
   Container,
   Title,
   SubTitle,
-  ButtonContianer,
+  ButtonContainer,
   Button,
 } from './styles';
 
@@ -17,11 +17,11 @@ const Hero = function Hero() {
         Evite falhas nas suas máquinas e torne o tempo de inatividade uma
         coisa do passado com sistema preditivo da TRACTIAN.
       </SubTitle>
-      <ButtonContianer>
+      <ButtonContainer>
         <Button>
           AGENDE UMA DEMONSTRAÇÃO
         </Button>
-      </ButtonContianer>
+      </ButtonContainer>
     </Container>
   );
 };

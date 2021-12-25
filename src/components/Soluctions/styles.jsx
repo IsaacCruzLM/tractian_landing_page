@@ -4,7 +4,7 @@ import Font from '../../styles/fonts';
 
 export const Container = styled.section`
   width: 100%;
-  padding: 25px 35px;
+  padding: 25px 35px 55px;
 `;
 
 export const TitleContainer = styled.div`
@@ -106,4 +106,24 @@ export const TextContainer = styled.div`
     margin-top: 10px;
     width: 70%;
   }
+`;
+
+export const ButtonContainer = styled.div`
+  text-align: center;
+  padding: 35px 0 0;
+`;
+
+export const ButtonDemonstration = styled.button`
+  width: 70%;
+  max-width: 255px;
+  margin: 0 auto;
+  padding: 2px 10px;
+  text-align: center;
+  color: ${(props) => props.theme.lighter};
+  background-color: ${(props) => props.theme.primary0};
+  outline: none;
+  border-color: ${(props) => props.theme.primary2};
+  border-radius: 0.3rem;
+  font-size: ${() => Font.normal_font_size_SD};
+  font-weight: ${() => Font.font_semi_bold};
 `;

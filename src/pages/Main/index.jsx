@@ -5,6 +5,7 @@ import Hero from '../../components/Hero';
 import About from '../../components/About';
 import Product from '../../components/Product';
 import Soluctions from '../../components/Soluctions';
+import ClientReports from '../../components/ClientReports';
 
 const Main = function Main() {
   return (
@@ -13,6 +14,7 @@ const Main = function Main() {
       <About />
       <Product />
       <Soluctions />
+      <ClientReports />
     </Container>
   );
 };

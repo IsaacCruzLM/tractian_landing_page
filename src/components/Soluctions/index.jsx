@@ -18,6 +18,8 @@ import {
   DataItem,
   Image,
   TextContainer,
+  ButtonContainer,
+  ButtonDemonstration,
 } from './styles';
 
 const Soluctions = function Soluctions() {
@@ -125,6 +127,11 @@ const Soluctions = function Soluctions() {
             </TextContainer>
           </DataItem>
         </div>
+        <ButtonContainer>
+          <ButtonDemonstration>
+            AGENDE UMA DEMONSTRAÇÃO
+          </ButtonDemonstration>
+        </ButtonContainer>
       </ContentContainer>
     </Container>
   );

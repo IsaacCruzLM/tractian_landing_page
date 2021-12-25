@@ -4,8 +4,8 @@ import Font from '../../styles/fonts';
 
 export const Container = styled.section`
   width: 100%;
-  padding: 25px 35px;
-  background-color: ${(props) => props.theme.primary0}
+  padding: 25px 35px 55px;
+  background-color: ${(props) => props.theme.primary0};
 `;
 
 export const TitleContainer = styled.div`
@@ -48,6 +48,5 @@ export const ContentContainer = styled.div`
 
   p:nth-of-type(2) {
     margin-top: 20px;
-    margin-bottom: 30px;
   }
 `;
