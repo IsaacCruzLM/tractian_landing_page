@@ -6,6 +6,8 @@ import About from '../../components/About';
 import Product from '../../components/Product';
 import Soluctions from '../../components/Soluctions';
 import ClientReports from '../../components/ClientReports';
+import Contact from '../../components/Contact';
+import Footer from '../../components/Footer';
 
 const Main = function Main() {
   return (
@@ -15,6 +17,8 @@ const Main = function Main() {
       <Product />
       <Soluctions />
       <ClientReports />
+      <Contact />
+      <Footer />
     </Container>
   );
 };
