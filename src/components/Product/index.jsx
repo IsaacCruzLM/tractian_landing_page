@@ -20,7 +20,7 @@ const Product = function Product() {
         </SubTitle>
       </TitleContainer>
       <ContentContainer>
-        <iframe data-testid="Video" src="https://www.youtube.com/embed/_6NLhkPMo9w" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" />
+        <iframe allowFullScreen data-testid="Video" src="https://www.youtube.com/embed/_6NLhkPMo9w" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" />
         <div>
           <p data-testid="Text">
             Queremos que todos os profissionais de manutenção tenham acesso ao monitoramento online
