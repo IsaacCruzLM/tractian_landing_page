@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/tractianlandingpage/static/css/main.0ee76929.css",
-    "main.js": "/tractianlandingpage/static/js/main.9daed683.js",
-    "static/media/Person2.png": "/tractianlandingpage/static/media/Person2.6b735117b7c6aac34107.png",
-    "static/media/Person3.png": "/tractianlandingpage/static/media/Person3.f902e19441a3ad248379.png",
-    "static/media/BackgroundImage.png": "/tractianlandingpage/static/media/BackgroundImage.439ea7256905dfa1cfff.png",
-    "static/media/TractianTeam.jpg": "/tractianlandingpage/static/media/TractianTeam.bf4b25539ec793ace3a9.jpg",
-    "static/media/GestaoDeAtivosImage.png": "/tractianlandingpage/static/media/GestaoDeAtivosImage.3a2a366569a75d69e3e6.png",
-    "static/media/SensorPlugAndPlayImage.png": "/tractianlandingpage/static/media/SensorPlugAndPlayImage.70b2c8c56f3ff5d84402.png",
-    "static/media/MonitoramentoOnlineImage.png": "/tractianlandingpage/static/media/MonitoramentoOnlineImage.39f3e01f7c85d86ada97.png",
-    "static/media/Logo.png": "/tractianlandingpage/static/media/Logo.aff30831dde1f2bebf5b.png",
-    "index.html": "/tractianlandingpage/index.html",
-    "main.0ee76929.css.map": "/tractianlandingpage/static/css/main.0ee76929.css.map",
-    "main.9daed683.js.map": "/tractianlandingpage/static/js/main.9daed683.js.map"
+    "main.css": "/tractian_landing_page/static/css/main.0ee76929.css",
+    "main.js": "/tractian_landing_page/static/js/main.99e4af42.js",
+    "static/media/Person2.png": "/tractian_landing_page/static/media/Person2.6b735117b7c6aac34107.png",
+    "static/media/Person3.png": "/tractian_landing_page/static/media/Person3.f902e19441a3ad248379.png",
+    "static/media/BackgroundImage.png": "/tractian_landing_page/static/media/BackgroundImage.439ea7256905dfa1cfff.png",
+    "static/media/TractianTeam.jpg": "/tractian_landing_page/static/media/TractianTeam.bf4b25539ec793ace3a9.jpg",
+    "static/media/GestaoDeAtivosImage.png": "/tractian_landing_page/static/media/GestaoDeAtivosImage.3a2a366569a75d69e3e6.png",
+    "static/media/SensorPlugAndPlayImage.png": "/tractian_landing_page/static/media/SensorPlugAndPlayImage.70b2c8c56f3ff5d84402.png",
+    "static/media/MonitoramentoOnlineImage.png": "/tractian_landing_page/static/media/MonitoramentoOnlineImage.39f3e01f7c85d86ada97.png",
+    "static/media/Logo.png": "/tractian_landing_page/static/media/Logo.aff30831dde1f2bebf5b.png",
+    "index.html": "/tractian_landing_page/index.html",
+    "main.0ee76929.css.map": "/tractian_landing_page/static/css/main.0ee76929.css.map",
+    "main.99e4af42.js.map": "/tractian_landing_page/static/js/main.99e4af42.js.map"
   },
   "entrypoints": [
     "static/css/main.0ee76929.css",
-    "static/js/main.9daed683.js"
+    "static/js/main.99e4af42.js"
   ]
 }
