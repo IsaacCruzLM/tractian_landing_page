@@ -14,6 +14,10 @@ export const CopyrightContainer = styled.div`
   font-size: ${Font.normal_font_size_SD};
   text-align: center;
   margin-top: 20px;
+
+  @media (min-width: 768px) {
+    font-size: ${Font.normal_font_size_LD};
+  };
 `;
 
 export const TitleContainer = styled.div`
@@ -26,11 +30,20 @@ export const TitleContainer = styled.div`
   img {
     width: 50px;
     height: 50px;
+
+    @media (min-width: 768px) {
+      width: 60px;
+      height: 60px;
+    };
   }
 
   h3 {
     color: ${(props) => props.theme.lighter};
     font-weight: ${Font.font_semi_bold};
     font-size: ${Font.h3_font_size_SD};
+
+    @media (min-width: 768px) {
+      font-size: ${Font.h3_font_size_LD};
+    };
   }
 `;

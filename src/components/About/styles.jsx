@@ -6,6 +6,10 @@ export const Container = styled.section`
   width: 100%;
   padding: 25px 35px 55px;
   background-color: ${(props) => props.theme.background};
+
+  @media (min-width: 768px) {
+    padding: 55px 100px 100px;
+  };
 `;
 
 export const TitleContainer = styled.div`
@@ -18,6 +22,10 @@ export const Title = styled.h2`
   font-weight: ${() => Font.font_bold};
   text-align: center;
   padding: 5px 0;
+
+  @media (min-width: 768px) {
+    font-size: ${() => Font.h1_font_size_LD};
+  };
 `;
 
 export const SubTitle = styled.h3`
@@ -25,6 +33,10 @@ export const SubTitle = styled.h3`
   font-size: ${() => Font.h3_font_size_SD};
   font-weight: ${() => Font.font_medium};
   text-align: center;
+
+  @media (min-width: 768px) {
+    font-size: ${() => Font.h3_font_size_LD};
+  };
 `;
 
 export const ContentContainer = styled.div`
@@ -32,10 +44,19 @@ export const ContentContainer = styled.div`
   flex-direction: column;
   justify-content: center;
   padding: 30px 5px 5px;
+
+  @media (min-width: 768px) {
+    flex-direction: row;
+  };
 `;
 
 export const Image = styled.img`
   border-radius: 0.4rem;
+
+  @media (min-width: 768px) {
+    width: 400px;
+    margin-right: 40px;
+  };
 `;
 
 export const TextContainer = styled.div`
@@ -49,6 +70,11 @@ export const TextContainer = styled.div`
     font-weight: ${() => Font.font_medium};
     text-align: center;
     padding: 35px 0;
+
+    @media (min-width: 768px) {
+      font-size: ${() => Font.h3_font_size_LD};
+      padding: 0 0 35px;
+    };
   }
 `;
 
@@ -57,6 +83,10 @@ export const ConquestContainer = styled.div`
   flex-direction: column;
   justify-content: center;
   gap: 30px;
+
+  @media (min-width: 768px) {
+    flex-direction: row;
+  };
 `;
 
 export const ConquestItem = styled.div`
@@ -80,6 +110,10 @@ export const ConquestItem = styled.div`
       font-size: ${() => Font.h3_font_size_SD};
       font-weight: ${() => Font.font_bold};
       text-align: center;
+
+      @media (min-width: 768px) {
+        font-size: ${() => Font.h3_font_size_LD};
+      };
     };
   };
 
@@ -91,5 +125,9 @@ export const ConquestItem = styled.div`
     text-align: center;
     width: 80%;
     margin: 0 auto;
+
+    @media (min-width: 768px) {
+      font-size: ${() => Font.normal_font_size_LD};
+    };
   };
 `;

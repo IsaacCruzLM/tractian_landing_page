@@ -6,6 +6,10 @@ export const Container = styled.section`
   width: 100%;
   padding: 25px 35px 55px;
   background-color: ${(props) => props.theme.primary0};
+
+  @media (min-width: 768px) {
+    padding: 55px 100px 100px;
+  };
 `;
 
 export const TitleContainer = styled.div`
@@ -18,13 +22,10 @@ export const Title = styled.h2`
   font-weight: ${() => Font.font_bold};
   text-align: center;
   padding: 5px 0;
-`;
 
-export const SubTitle = styled.h3`
-  color: ${(props) => props.theme.dark};
-  font-size: ${() => Font.h3_font_size_SD};
-  font-weight: ${() => Font.font_medium};
-  text-align: center;
+  @media (min-width: 768px) {
+    font-size: ${() => Font.h1_font_size_LD};
+  };
 `;
 
 export const ContentContainer = styled.div`
@@ -56,12 +57,27 @@ export const ReportCard = styled.div`
     font-size: ${() => Font.normal_font_size_SD};
     font-weight: ${() => Font.font_regular};
     text-align: center;
+
+    @media (min-width: 768px) {
+      font-size: ${() => Font.h3_font_size_LD};
+      padding: 20px 20px 0;
+    };
   }
 
   svg {
     color: ${(props) => props.theme.primary0};
     width: 30px;
+
+    @media (min-width: 768px) {
+      width: 50px;
+      height: 35px;
+    };
   }
+
+  @media (min-width: 768px) {
+    max-width: 50%;
+    gap: 30px;
+  };
 `;
 
 export const ReportCardPerson = styled.div`
@@ -74,6 +90,13 @@ export const ReportCardPerson = styled.div`
     width: 50px;
     height: 50px;
     border-radius: 25px;
+
+    @media (min-width: 768px) {
+      width: 80px;
+      height: 80px;
+      border-radius: 40px;
+      margin-right: 20px;
+    };
   }
 
   div {
@@ -84,6 +107,10 @@ export const ReportCardPerson = styled.div`
       font-size: ${() => Font.normal_font_size_SD};
       font-weight: ${() => Font.font_semi_bold};
       text-align: center;
+
+      @media (min-width: 768px) {
+        font-size: ${() => Font.h3_font_size_LD};
+      };
     };
 
     p {
@@ -91,6 +118,10 @@ export const ReportCardPerson = styled.div`
       font-size: ${() => Font.small_font_size_SD};
       font-weight: ${() => Font.font_medium};
       text-align: center;
+
+      @media (min-width: 768px) {
+        font-size: ${() => Font.normal_font_size_LD};
+      };
     }
   }
 `;

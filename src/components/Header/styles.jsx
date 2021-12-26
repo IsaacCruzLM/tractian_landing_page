@@ -49,12 +49,6 @@ export const NavContainer = styled.div`
       filter: brightness(0.9);
     };
   };
-
-  @media (max-width: 1023px) and (min-width: 768px) {
-    a {
-      font-size: ${Font.small_font_size_SD};
-    };
-  };
 `;
 
 export const IconContainer = styled.div`
@@ -82,21 +76,19 @@ export const Button = styled.button`
 
 export const ButtonContainer = styled.div`
   text-align: center;
-  width: 130px;
+  width: 200px;
 `;
 
-export const ButtonDemonstration = styled.button`
-  width: 100%;
+export const ButtonDemonstration = styled.a`
+  max-width: 150px !important;
   margin-left: 5px;
   text-align: center;
   padding: 3px 5px;
   color: ${(props) => props.theme.lighter};
   background-color: ${(props) => (props.theme.name === 'light' ? props.theme.primary0 : props.theme.primary1)};
-  outline: none;
+  border-style: outset;
   border-color: ${(props) => props.theme.primary2};
   border-radius: 0.3rem;
-  font-size: ${() => Font.smaller_font_size_SD};
-  font-weight: ${() => Font.font_semi_bold};
 
   &:hover {
     background-color: ${(props) => props.theme.primary1};

@@ -28,7 +28,7 @@ const Contact = function Contact() {
 
     if (form.current[0].value === '') return alert.error('Por favor, insira um nome');
     if (form.current[1].value === '') return alert.error('Por favor, insira um email');
-    if (form.current[2].value === '') return alert.error('Por favor, insira um assunto');
+    if (form.current[2].value === '') return alert.error('Por favor, insira seu cargo atual');
     if (form.current[3].value === '') return alert.error('Por favor, insira uma mensagem');
 
     alert.success('Email enviado com sucesso!');
@@ -75,10 +75,10 @@ const Contact = function Contact() {
               <input type="text" placeholder="Nome" name="nome" />
               <input type="email" placeholder="Email" name="email" />
             </div>
-            <input type="text" placeholder="Assunto" name="subject" />
+            <input type="text" placeholder="Cargo Atual" name="subject" />
             <textarea rows="8" placeholder="Mensagem" name="message" />
             <Button type="submit">
-              <span>Mandar Mensagem</span>
+              <span>MARCAR DEMONSTRAÇÃO</span>
               <ArrowIcon size="25" />
             </Button>
           </Form>

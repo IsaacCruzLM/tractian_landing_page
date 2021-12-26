@@ -18,7 +18,7 @@ const Hero = function Hero() {
         coisa do passado com sistema preditivo da TRACTIAN.
       </SubTitle>
       <ButtonContainer>
-        <Button>
+        <Button href="#Contact">
           AGENDE UMA DEMONSTRAÇÃO
         </Button>
       </ButtonContainer>

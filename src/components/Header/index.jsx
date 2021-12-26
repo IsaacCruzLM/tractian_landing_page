@@ -49,7 +49,6 @@ const Header = function Header() {
             <a href="#Product">Nosso Produto</a>
             <a href="#Soluctions">Nossas Soluções</a>
             <a href="#ClientReports">Relatos De Clientes</a>
-            <a href="#Contact">Contato</a>
           </div>
           <Button onClick={() => changeTheme()}>
             <IconContainer>
@@ -57,7 +56,7 @@ const Header = function Header() {
             </IconContainer>
           </Button>
           <ButtonContainer>
-            <ButtonDemonstration>
+            <ButtonDemonstration href="#Contact">
               AGENDE UMA DEMONSTRAÇÃO
             </ButtonDemonstration>
           </ButtonContainer>
