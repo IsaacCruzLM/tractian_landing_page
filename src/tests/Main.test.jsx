@@ -8,7 +8,7 @@ import Product from '../components/Product';
 import Soluctions from '../components/Soluctions';
 
 describe('Testando os componentes da Página Main', () => {
-  describe.skip('Testando o componente Hero', () => {
+  describe('Testando o componente Hero', () => {
     beforeEach(() => {
       render(<Hero />);
     });
