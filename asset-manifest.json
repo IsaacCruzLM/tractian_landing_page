@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/tractian_landing_page/static/css/main.0ee76929.css",
-    "main.js": "/tractian_landing_page/static/js/main.99e4af42.js",
+    "main.js": "/tractian_landing_page/static/js/main.d104af5b.js",
     "static/media/Person2.png": "/tractian_landing_page/static/media/Person2.6b735117b7c6aac34107.png",
     "static/media/Person3.png": "/tractian_landing_page/static/media/Person3.f902e19441a3ad248379.png",
     "static/media/BackgroundImage.png": "/tractian_landing_page/static/media/BackgroundImage.439ea7256905dfa1cfff.png",
@@ -12,10 +12,10 @@
     "static/media/Logo.png": "/tractian_landing_page/static/media/Logo.aff30831dde1f2bebf5b.png",
     "index.html": "/tractian_landing_page/index.html",
     "main.0ee76929.css.map": "/tractian_landing_page/static/css/main.0ee76929.css.map",
-    "main.99e4af42.js.map": "/tractian_landing_page/static/js/main.99e4af42.js.map"
+    "main.d104af5b.js.map": "/tractian_landing_page/static/js/main.d104af5b.js.map"
   },
   "entrypoints": [
     "static/css/main.0ee76929.css",
-    "static/js/main.99e4af42.js"
+    "static/js/main.d104af5b.js"
   ]
 }
