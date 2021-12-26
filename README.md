@@ -5,7 +5,7 @@
 </p>
 
 <p align="center">
-  <img alt="Tractian Landing Page" src=".github/principal.png" width="100%">
+  <img alt="Tractian Landing Page" src="./github/principal.png" width="100%">
 </p>
 
 ## 🚀 Tecnologias
