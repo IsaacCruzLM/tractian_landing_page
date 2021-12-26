@@ -1,6 +1,7 @@
 <p align="center">
   <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-projeto">Projeto</a>
+  <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-layout">Layout</a>
 </p>
 
 ## 🚀 Tecnologias
@@ -20,6 +21,10 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 ## 💻 Projeto
 
 Este projeto foi desenvolvido para a apresentação e participação do processo seletivo da Tractian para a vaga de desenvolvedor Front-end Web Developer(https://tractian.com/);
+
+## 🔖 Layout
+
+Você pode visualizar o layout do projeto através [desse link](https://www.figma.com/file/mA59QpL3czWO1lHW1hVxia/Tractian-Application?node-id=1%3A3). É necessário ter conta no [Figma](https://figma.com) para acessá-lo.
 
 ---
 
