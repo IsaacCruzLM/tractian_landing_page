@@ -9,10 +9,12 @@ import ClientReports from '../../components/ClientReports';
 import Contact from '../../components/Contact';
 import Footer from '../../components/Footer';
 import MobileHeader from '../../components/MobileHeader';
+import Header from '../../components/Header';
 
 const Main = function Main() {
   return (
     <Container>
+      <Header />
       <MobileHeader />
       <Hero />
       <About />
