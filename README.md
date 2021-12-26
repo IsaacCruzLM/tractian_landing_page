@@ -4,6 +4,10 @@
   <a href="#-layout">Layout</a>
 </p>
 
+<p align="center">
+  <img alt="Tractian Landing Page" src=".github/principal.png" width="100%">
+</p>
+
 ## 🚀 Tecnologias
 
 Esse projeto foi desenvolvido com as seguintes tecnologias:
