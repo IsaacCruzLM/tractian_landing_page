@@ -36,7 +36,7 @@ const Contact = function Contact() {
   };
 
   return (
-    <Container>
+    <Container id="Contact">
       <TitleContainer>
         <Title>
           Contato

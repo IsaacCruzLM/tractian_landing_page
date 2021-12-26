@@ -1,4 +1,4 @@
-import React, { useMemo, useState } from 'react';
+import React, { useState } from 'react';
 import PropTypes from 'prop-types';
 import ThemeContext from './ThemeContext';
 import { lightTheme } from '../styles/themes';
@@ -6,10 +6,11 @@ import { lightTheme } from '../styles/themes';
 const ThemeProvider = function ThemeProvider({ children }) {
   const [currentTheme, setCurrentTheme] = useState(lightTheme);
 
-  const contextValue = useMemo(() => ({
+  // eslint-disable-next-line react/jsx-no-constructed-context-values
+  const contextValue = {
     theme: currentTheme,
     setCurrentTheme,
-  }), []);
+  };
 
   return (
     <ThemeContext.Provider value={contextValue}>

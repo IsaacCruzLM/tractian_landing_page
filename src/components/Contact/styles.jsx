@@ -5,6 +5,7 @@ import Font from '../../styles/fonts';
 export const Container = styled.section`
   width: 100%;
   padding: 25px 35px 55px;
+  background-color: ${(props) => props.theme.background};
 `;
 
 export const TitleContainer = styled.div`
@@ -80,7 +81,7 @@ export const Form = styled.form`
     padding: 10px;
     margin-bottom: 15px;
     font-size: ${Font.normal_font_size_LD};
-    color: ${(props) => props.theme.dark};
+    color: '#0C0C1C';
     outline: 0;
 
     &:active, &:focus {
@@ -116,7 +117,7 @@ export const Button = styled.button`
   justify-content: center;
   align-items: center;
   margin: 0 auto;
-  background-color: ${(props) => props.theme.primary0};
+  background-color: ${(props) => (props.theme.name === 'light' ? props.theme.primary0 : props.theme.primary1)};
   border-color: ${(props) => props.theme.primary2};
   padding: 10px;
   border-radius: 5px;

@@ -5,6 +5,7 @@ import Font from '../../styles/fonts';
 export const Container = styled.section`
   width: 100%;
   padding: 25px 35px 55px;
+  background-color: ${(props) => props.theme.background};
 `;
 
 export const TitleContainer = styled.div`
@@ -66,7 +67,7 @@ export const Button = styled.div`
 
 export const SelectedLine = styled.span`
   width: 40px;
-  background-color: ${(props) => props.theme.primary0};
+  background-color: ${(props) => (props.theme.name === 'light' ? props.theme.primary0 : props.theme.primary2)};
   height: 2px;
   margin-top: 5px;
 `;
@@ -120,7 +121,7 @@ export const ButtonDemonstration = styled.button`
   padding: 2px 10px;
   text-align: center;
   color: ${(props) => props.theme.lighter};
-  background-color: ${(props) => props.theme.primary0};
+  background-color: ${(props) => (props.theme.name === 'light' ? props.theme.primary0 : props.theme.primary1)};
   outline: none;
   border-color: ${(props) => props.theme.primary2};
   border-radius: 0.3rem;

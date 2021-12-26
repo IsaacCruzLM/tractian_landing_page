@@ -17,7 +17,7 @@ import {
 
 const About = function About() {
   return (
-    <Container>
+    <Container id="About">
       <TitleContainer>
         <Title>
           Sobre a Tractian

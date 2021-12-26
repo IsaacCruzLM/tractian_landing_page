@@ -8,10 +8,12 @@ import Soluctions from '../../components/Soluctions';
 import ClientReports from '../../components/ClientReports';
 import Contact from '../../components/Contact';
 import Footer from '../../components/Footer';
+import MobileHeader from '../../components/MobileHeader';
 
 const Main = function Main() {
   return (
     <Container>
+      <MobileHeader />
       <Hero />
       <About />
       <Product />

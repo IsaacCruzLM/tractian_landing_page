@@ -4,7 +4,7 @@ import Font from '../../styles/fonts';
 
 export const Container = styled.section`
   width: 100%;
-  padding: 30px;
+  padding: 30px 30px 70px;
   background-color: ${(props) => props.theme.primary0};
 `;
 

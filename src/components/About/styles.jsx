@@ -5,6 +5,7 @@ import Font from '../../styles/fonts';
 export const Container = styled.section`
   width: 100%;
   padding: 25px 35px 55px;
+  background-color: ${(props) => props.theme.background};
 `;
 
 export const TitleContainer = styled.div`
@@ -71,6 +72,7 @@ export const ConquestItem = styled.div`
 
     svg {
       width: 30px;
+      color: ${(props) => props.theme.dark};
     };
 
     span {

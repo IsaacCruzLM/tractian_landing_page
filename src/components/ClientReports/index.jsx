@@ -24,7 +24,7 @@ SwiperCore.use([Navigation]);
 
 const ClientReports = function ClientReports() {
   return (
-    <Container>
+    <Container id="ClientReports">
       <TitleContainer>
         <Title>
           Relato de Nossos Clientes

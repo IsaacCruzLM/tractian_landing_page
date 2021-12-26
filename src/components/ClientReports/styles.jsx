@@ -52,7 +52,7 @@ export const ReportCard = styled.div`
   gap: 20px;
 
   p {
-    color: ${(props) => props.theme.dark};
+    color: '#0C0C1C';
     font-size: ${() => Font.normal_font_size_SD};
     font-weight: ${() => Font.font_regular};
     text-align: center;
@@ -80,14 +80,14 @@ export const ReportCardPerson = styled.div`
     padding-left: 5px; 
     
     h4 {
-      color: ${(props) => props.theme.dark};
+      color: '#0C0C1C';
       font-size: ${() => Font.normal_font_size_SD};
       font-weight: ${() => Font.font_semi_bold};
       text-align: center;
     };
 
     p {
-      color: ${(props) => props.theme.dark};
+      color: '#0C0C1C';
       font-size: ${() => Font.small_font_size_SD};
       font-weight: ${() => Font.font_medium};
       text-align: center;
