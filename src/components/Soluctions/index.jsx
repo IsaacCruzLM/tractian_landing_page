@@ -57,7 +57,7 @@ const Soluctions = function Soluctions() {
   }, []);
 
   return (
-    <Container id="Soluctions">
+    <Container id="Soluctions" data-testid="Soluctions">
       <TitleContainer>
         <Title>
           Nossas Soluções
@@ -89,7 +89,7 @@ const Soluctions = function Soluctions() {
         </ButtonsContainer>
         <div>
           <DataItem id="SensorPlugAndPlay">
-            <Image src={SensorPlugAndPlayImage} alt="Sensor Plug And Play Image" />
+            <Image src={SensorPlugAndPlayImage} alt="Sensor Plug And Play Image" loading="lazy" />
             <TextContainer>
               <h3>
                 Tecnologia IoT avançada para conectar seus ativos
@@ -102,7 +102,7 @@ const Soluctions = function Soluctions() {
             </TextContainer>
           </DataItem>
           <DataItem id="MonitoramentoOnline" style={{ display: 'none' }}>
-            <Image src={MonitoramentoOnlineImage} alt="Monitoramento Online Image" />
+            <Image src={MonitoramentoOnlineImage} alt="Monitoramento Online Image" loading="lazy" />
             <TextContainer>
               <h3>
                 Plataforma que trabalha por você
@@ -114,7 +114,7 @@ const Soluctions = function Soluctions() {
             </TextContainer>
           </DataItem>
           <DataItem id="GestaoDeAtivos" style={{ display: 'none' }}>
-            <Image src={GestaoDeAtivosImage} alt="Gestao De Ativos Image" />
+            <Image src={GestaoDeAtivosImage} alt="Gestao De Ativos Image" loading="lazy" />
             <TextContainer>
               <h3>
                 O Software de manutenção dos seus sonhos
@@ -128,7 +128,7 @@ const Soluctions = function Soluctions() {
           </DataItem>
         </div>
         <ButtonContainer>
-          <ButtonDemonstration>
+          <ButtonDemonstration href="#Contact">
             AGENDE UMA DEMONSTRAÇÃO
           </ButtonDemonstration>
         </ButtonContainer>

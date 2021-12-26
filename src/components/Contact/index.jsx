@@ -1,10 +1,12 @@
 import React, { useRef } from 'react';
 import { useAlert } from 'react-alert';
 
-import CallIcon from '@iconscout/react-unicons/icons/uil-calling';
-import LocationIcon from '@iconscout/react-unicons/icons/uil-location-point';
-import MailBoxIcon from '@iconscout/react-unicons/icons/uil-fast-mail';
-import ArrowIcon from '@iconscout/react-unicons/icons/uil-arrow-right';
+import {
+  UilCalling as CallIcon,
+  UilLocationPoint as LocationIcon,
+  UilEnvelopeEdit as MailBoxIcon,
+  UilArrowRight as ArrowIcon,
+} from '@iconscout/react-unicons';
 
 import {
   Container,
@@ -36,7 +38,7 @@ const Contact = function Contact() {
   };
 
   return (
-    <Container id="Contact">
+    <Container id="Contact" data-testid="Contact">
       <TitleContainer>
         <Title>
           Contato

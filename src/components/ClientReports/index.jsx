@@ -55,7 +55,7 @@ const ClientReports = function ClientReports() {
                   <UisStarFilled />
                 </div>
                 <ReportCardPerson>
-                  <img src={Person1Image} alt="Pessoa 1" />
+                  <img src={Person1Image} alt="Pessoa 1" loading="lazy" />
                   <div>
                     <h4>Joana Silva</h4>
                     <p>Técnica Mecânico - Indústria Cervejeira</p>
@@ -78,7 +78,7 @@ const ClientReports = function ClientReports() {
                   <UilStar />
                 </div>
                 <ReportCardPerson>
-                  <img src={Person2Image} alt="Pessoa 2" />
+                  <img src={Person2Image} alt="Pessoa 2" loading="lazy" />
                   <div>
                     <h4>Rafael Andrade</h4>
                     <p>Diretor Geral - Indústria Alimentícia</p>
@@ -102,7 +102,7 @@ const ClientReports = function ClientReports() {
                   <UilStar />
                 </div>
                 <ReportCardPerson>
-                  <img src={Person3Image} alt="Pessoa 3" />
+                  <img src={Person3Image} alt="Pessoa 3" loading="lazy" />
                   <div>
                     <h4>Fernanda Almeida</h4>
                     <p>Mecânica - Indústria Automobilistica</p>

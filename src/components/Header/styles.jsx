@@ -84,7 +84,7 @@ export const ButtonDemonstration = styled.a`
   margin-left: 5px;
   text-align: center;
   padding: 3px 5px;
-  color: ${(props) => props.theme.lighter};
+  color: ${(props) => props.theme.lighter} !important;
   background-color: ${(props) => (props.theme.name === 'light' ? props.theme.primary0 : props.theme.primary1)};
   border-style: outset;
   border-color: ${(props) => props.theme.primary2};

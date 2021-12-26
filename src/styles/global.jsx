@@ -9,9 +9,10 @@ export default createGlobalStyle`
   
   html {
     background-color: ${(props) => props.theme.background};
+    scroll-behavior: smooth;
   };
   
   body {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
   };
 `;

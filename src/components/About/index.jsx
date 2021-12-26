@@ -17,7 +17,7 @@ import {
 
 const About = function About() {
   return (
-    <Container id="About">
+    <Container id="About" data-testid="About">
       <TitleContainer>
         <Title>
           Sobre a Tractian
@@ -27,9 +27,9 @@ const About = function About() {
         </SubTitle>
       </TitleContainer>
       <ContentContainer>
-        <Image src={TractianTeam} alt="Tractian Team" />
+        <Image src={TractianTeam} alt="Tractian Team" loading="lazy" />
         <TextContainer>
-          <p>
+          <p data-testid="Text">
             A TRACTIAN foi fundada em 2019 por Igor e Gabriel, que viram a vida inteira seus pais,
             coordenadores de manutenção, saindo de madrugada para resolver problemas nas fábricas.
           </p>
@@ -39,7 +39,7 @@ const About = function About() {
                 <UilAward size="40" />
                 <span>100 Startups to watch 2021</span>
               </div>
-              <p>
+              <p data-testid="Text">
                 Considerada uma das 100 startups mais promissoras e inovadoras do país pela PEGN.
               </p>
             </ConquestItem>
@@ -48,7 +48,7 @@ const About = function About() {
                 <UilAward />
                 <span>Norte Ventures</span>
               </div>
-              <p>
+              <p data-testid="Text">
                 Investimento na rodada pré-seed compondo Round de 2MM de reais.
               </p>
             </ConquestItem>
